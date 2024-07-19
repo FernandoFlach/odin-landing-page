@@ -3,20 +3,37 @@ body {
     font-family: sans-serif;
 }
 
+li {
+    list-style-type: none;
+}
 h1{
     margin: 0px;
 }
 .header {
-    height: auto;
+    height: 72px;
     padding: 0px;
     background-color: #1F2937;
     color: white;
     display: flex;
     align-items: center;
-    padding: 0px 156px;
+    padding: 0px 160px;
+}
+.logo {
+    font-size: 24px;
 }
 .header-links {
-    margin-left: auto;
     display: flex;
+    justify-content: flex-end;
     flex: 1;
+}
+.header-logo {
+    flex: 1;
+
+}
+.content {
+    height: 1000px;
+}
+.links {
+    display: flex;
+    gap: 16px;
 }
