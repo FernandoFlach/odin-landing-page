@@ -42,9 +42,14 @@ p {
     gap: 16px;
 }
 .hero {
+    display: flex;
     height: 400px;
     background-color: #1F2937;
-    padding: 0px 160px;
+    padding: 120px 160px;
+    
+}
+.hero-text {
+    margin-right: 32px;  /*--------------------------------------------------------------*/
 }
 .hero-image{
     height: 120px;
