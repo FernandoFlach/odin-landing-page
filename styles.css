@@ -8,6 +8,10 @@ li {
 }
 h1{
     margin: 0px;
+    color: white;
+}
+p {
+    color:white;
 }
 .header {
     height: 72px;
@@ -36,4 +40,14 @@ h1{
 .links {
     display: flex;
     gap: 16px;
+}
+.hero {
+    height: 400px;
+    background-color: #1F2937;
+    padding: 0px 160px;
+}
+.hero-image{
+    height: 120px;
+    width: 120px;
+
 }
