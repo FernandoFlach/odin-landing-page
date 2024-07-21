@@ -13,6 +13,16 @@ h1{
 p {
     color:white;
 }
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 24px;
+    font-weight: bold;
+    font-size :14px;
+
+}
 .header {
     height: 72px;
     padding: 0px;
@@ -20,7 +30,7 @@ p {
     color: white;
     display: flex;
     align-items: center;
-    padding: 0px 160px;
+    padding: 0px 200px;
 }
 .logo {
     font-size: 24px;
@@ -34,25 +44,32 @@ p {
     flex: 1;
 
 }
-.content {
-    height: 1000px;
-}
+
 .links {
     display: flex;
     gap: 16px;
 }
 .hero {
     display: flex;
-    height: 400px;
     background-color: #1F2937;
-    padding: 120px 160px;
+    padding: 120px 200px;
+    gap: 72px;
     
 }
 .hero-text {
-    margin-right: 32px;  /*--------------------------------------------------------------*/
+    flex:1;
+     /*--------------------------------------------------------------*/
 }
-.hero-image{
-    height: 120px;
-    width: 120px;
 
+.hero-image{
+    height: 240px;
+    width: 460px;
+
+}
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bold;
+}
+.hero-second-text {
+    font-size: 18px;
 }
