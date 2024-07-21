@@ -10,9 +10,7 @@ h1{
     margin: 0px;
     color: white;
 }
-p {
-    color:white;
-}
+
 button {
     background-color: #3882F6;
     border: none;
@@ -42,7 +40,6 @@ button {
 }
 .header-logo {
     flex: 1;
-
 }
 
 .links {
@@ -58,7 +55,6 @@ button {
 }
 .hero-text {
     flex:1;
-     /*--------------------------------------------------------------*/
 }
 
 .hero-image{
@@ -72,11 +68,28 @@ button {
 }
 .hero-second-text {
     font-size: 18px;
+    color: white;
 }
-.content {
+.cards {
     display: flex;
+    justify-content: center;
+    gap: 100px;
 }
-.content-image {
+.cards-title {
+    display: flex;
+    justify-content: center;
+}
+.card-image {
     height: 200px;
     width: 200px;
+    border-radius: 10px;
+}
+.card-text {
+    width: 200px;
+}
+.cards-title-text {
+    padding: 48px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: black;
 }
