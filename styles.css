@@ -73,3 +73,10 @@ button {
 .hero-second-text {
     font-size: 18px;
 }
+.content {
+    display: flex;
+}
+.content-image {
+    height: 200px;
+    width: 200px;
+}
