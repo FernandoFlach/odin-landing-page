@@ -93,3 +93,22 @@ button {
     font-weight: bolder;
     color: black;
 }
+.inspirational-quote {
+    margin: 72px 0px;
+    padding: 36px;
+    background-color: #E5E7EB;
+  
+}
+.inspirational-text {
+    margin: 0px 32px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.inspirational-author {
+    margin: 0px 32px;
+    padding: 36px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+}
