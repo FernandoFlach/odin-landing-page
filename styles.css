@@ -94,21 +94,23 @@ button {
     color: black;
 }
 .inspirational-quote {
+    justify-content: center;
     margin: 72px 0px;
-    padding: 36px;
+    padding: 100px 300px;
     background-color: #E5E7EB;
   
 }
 .inspirational-text {
     margin: 0px 32px;
-    font-size: 36px;
+    font-size: 32px;
     font-style: italic;
     color: #1F2937;
 }
 .inspirational-author {
+    display:flex;
+    justify-content: right;
     margin: 0px 32px;
-    padding: 36px;
+    padding: 0px 36px;
     font-size: 22px;
     font-weight: bold;
-    text-align: right;
 }
